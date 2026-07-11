@@ -1,32 +1,37 @@
 # Loan Approval Prediction System
 
-An AI-powered Loan Approval Prediction web application built using Machine Learning and Flask.
+A Machine Learning based Loan Approval Prediction System built using Flask, HTML, CSS, JavaScript, and Scikit-learn.
 
 ## Features
 
-- Predicts whether a loan will be Approved or Rejected
-- Machine Learning based prediction
+- Predicts whether a loan application will be Approved or Rejected
 - Beautiful responsive UI
-- Real-time prediction
-- Confidence score
+- Real-time prediction using Machine Learning
+- Confidence score display
 - Form validation
+- Flask backend
 
 ## Tech Stack
 
-Frontend
+- Python
+- Flask
+- Scikit-learn
+- Random Forest Classifier
 - HTML
 - CSS
 - JavaScript
 
-Backend
-- Flask
-- Python
+## Machine Learning
 
-Machine Learning
-- Scikit-Learn
+Model Used:
 - Random Forest Classifier
-- Pandas
-- NumPy
+
+Performance:
+
+- Accuracy: 90%
+- Precision: 82.5%
+- Recall: 85.2%
+- F1 Score: 83.9%
 
 ## Project Structure
 
@@ -37,23 +42,15 @@ Loan-Approval-Prediction-System/
 ├── requirements.txt
 ├── README.md
 │
+├── dataset/
 ├── model/
-│   ├── model.pkl
-│   ├── scaler.pkl
-│   └── ohe.pkl
-│
-├── templates/
-│   └── index.html
-│
+├── notebook/
 ├── static/
 │   ├── style.css
 │   └── script.js
 │
-├── dataset/
-│   └── loan_approval_data.csv
-│
-└── notebook/
-    └── credit_wise.ipynb
+└── templates/
+    └── index.html
 ```
 
 ## Installation
@@ -61,13 +58,7 @@ Loan-Approval-Prediction-System/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Loan-Approval-Prediction-System.git
-```
-
-Go to project directory
-
-```bash
-cd Loan-Approval-Prediction-System
+git clone https://github.com/adarsh-jayswal/Loan-Approval-Prediction-System.git
 ```
 
 Install dependencies
@@ -76,31 +67,33 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run Flask app
+Run the application
 
 ```bash
 python app.py
 ```
 
-Open browser
+Open
 
 ```
 http://127.0.0.1:5000
 ```
 
-## Machine Learning
+## Future Improvements
 
-Algorithm Used:
+- XGBoost Model
+- Explainable AI
+- User Authentication
+- Database Integration
+- Cloud Deployment
+- Dashboard Analytics
 
-- Random Forest Classifier
+## Contributors
 
-Accuracy
+- Adarsh Jaiswal
+- Anil Kumar Singh
+- Agrim Saxena
 
-- 90%
+## License
 
-## 👥 Team Members
-
-1.Adarsh Jaiswal
-2.Agrim Saxena
-3.Anil Kumar Singh
-4.Agrim Pratap Singh
+This project is developed for educational purposes.
