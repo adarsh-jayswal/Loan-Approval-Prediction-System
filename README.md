@@ -88,12 +88,10 @@ http://127.0.0.1:5000
 - Cloud Deployment
 - Dashboard Analytics
 
-## Contributors
+## Author
 
 - Adarsh Jaiswal
-- Anil Kumar Singh
-- Agrim Saxena
-
+- 
 ## License
 
 This project is developed for educational purposes.
